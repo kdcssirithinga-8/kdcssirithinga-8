@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/logo"
+    tools:context=".EngineOil">
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="603dp"
+        android:text="Quantity:"
+        android:textColor="#0B1A45"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,NotSibling,RtlHardcoded" />
+
+    <Spinner
+        android:id="@+id/quantity_spinner"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/quantity_text_view"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="610dp"
+        android:backgroundTint="@color/black"
+        android:entries="@array/quantity_array"
+        android:spinnerMode="dropdown"
+        tools:ignore="NotSibling,RtlHardcoded,TouchTargetSizeCheck,UnknownId" />
+
+    <TextView
+        android:id="@+id/fuel_type_text_view"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="260dp"
+        android:text="Fuel Type:"
+        android:textColor="#0B1A45"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <Spinner
+        android:id="@+id/fuel_type_spinner"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fuel_type_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="@color/black"
+        android:entries="@array/fuel_type_array1"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="1dp"
+        android:text="**Maximum Quantity is 10L**"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="#006064"
+        android:text="Cancel"
+        app:cornerRadius="30dp" />
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="131dp"
+        android:backgroundTint="#006064"
+        android:text="order"
+        app:cornerRadius="30dp" />
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="140dp"
+        android:layout_height="29dp"
+        android:layout_below="@id/fuel_type_spinner"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="88dp"
+        android:text="Date:"
+        android:textColor="#141A30"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date_text_view5"
+        android:layout_width="70dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="282dp"
+        android:text="Mobile"
+        android:textColor="#141A30"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date_text_view3"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="240dp"
+        android:text="Address"
+        android:textColor="#141A30"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_text_view"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="47dp"
+        android:backgroundTint="#006064"
+        android:text="Select Date"
+        app:cornerRadius="30dp" />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="290dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="170dp"
+        android:text="Price:"
+        android:textColor="#141A30"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="51dp"
+        android:layout_height="36dp"
+        android:onClick="Home"
+        android:text="Home"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextPhone4"
+        android:layout_width="362dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/date_text_view3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="366dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="266dp"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="160dp"
+        android:inputType="textPostalAddress"
+        android:text="Enter address"
+        android:textColor="#8A000000"
+        android:textSize="16dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+</RelativeLayout>

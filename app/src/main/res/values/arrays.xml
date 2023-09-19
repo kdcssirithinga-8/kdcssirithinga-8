@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fuel_type_array">
+        <item>Petrol Octane 92</item>
+        <item>Petrol Octane 95</item>
+    </string-array>
+
+    <string-array name="fuel_type_array1">
+        <item> Synthetic Engine Oil</item>
+        <item>Synthetic Blend Oil</item>
+        <item>Conventional Engine Oils</item>
+    </string-array>
+
+    <string-array name="fuel_type_array2">
+        <item>Lanka Auto Diesel</item>
+        <item>Lanka Super Diesel 4 Star Euro 4</item>
+    </string-array>
+</resources>

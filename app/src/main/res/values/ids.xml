@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_setting" type="id" />
+    <item name="nav_navigation" type="id" />
+    <item name="nav_home" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="nav_order_fuel" type="id" />
+    <item name="frameLayout" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="container" type="id" />
+    <item name="text_order" type="id" />
+    <item name="order_fuel_btn" type="id" />
+    <item name="search_view" type="id" />
+    <item name="map_layout" type="id" />
+    <item name="map" type="id" />
+    <item name="navigation_image_view" type="id" />
+    <item name="password_edit_text" type="id" />
+    <item name="password1" type="id" />
+    <item name="et_username" type="id" />
+    <item name="et_email" type="id" />
+    <item name="et_phone" type="id" />
+    <item name="et_otp" type="id" />
+    <item name="et_new_password" type="id" />
+    <item name="btn_search" type="id" />
+    <item name="fuel_type_spinner" type="id" />
+    <item name="date_edit_text" type="id" />
+    <item name="time_edit_text" type="id" />
+    <item name="location_edit_text" type="id" />
+    <item name="date_time_text_view" type="id" />
+    <item name="date_picker" type="id" />
+    <item name="text_price" type="id" />
+    <item name="check_price" type="id" />
+    <item name="textView22" type="id" />
+    <item name="price_text_view" type="id" />
+    <item name="price_text_view3" type="id" />
+    <item name="quantity_text_view" type="id" />
+    <item name="paymentAmountEditText" type="id" />
+    <item name="btn_search_fuel_station" type="id" />
+    <item name="btn_home" type="id" />
+    <item name="zoom_controls" type="id" />
+    <item name="text_gallery" type="id" />
+    <item name="editTextName" type="id" />
+    <item name="editTextContact" type="id" />
+    <item name="buttonSave" type="id" />
+    <item name="buttonChangePhoto" type="id" />
+    <item name="textViewProfilePhoto" type="id" />
+    <item name="buttonOrderHistory" type="id" />
+    <item name="textViewName" type="id" />
+    <item name="textViewContact" type="id" />
+    <item name="imageViewProfilePhoto" type="id" />
+    <item name="changePhotoButton" type="id" />
+    <item name="btnGoogleSignIn" type="id" />
+    <item name="emailOrPhoneEditText" type="id" />
+    <item name="sendCodeButton" type="id" />
+    <item name="reset_code" type="id" />
+    <item name="new_password" type="id" />
+    <item name="reset_button" type="id" />
+
+
+</resources>

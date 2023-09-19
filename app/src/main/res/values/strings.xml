@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">FUEL_DELIVERY_APP2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="open_nav" />
+    <string name="close_nav" />
+    <string name="title_activity_navigation">navigation</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_order_fuel">Order_Fuel</string>
+    <!--    <string name="menu_aboutus">About Us</string>-->
+
+
+    <string name="select_quantity">Select Quantity</string>
+    <string name="select_fuel_type">Select Fuel Type</string>
+
+    <string-array name="quantity_array">
+        <item>1L</item>
+        <item>2L</item>
+        <item>3L</item>
+        <item>4L</item>
+        <item>5L</item>
+        <item>6L</item>
+        <item>7L</item>
+        <item>8L</item>
+        <item>9L</item>
+        <item>10L</item>
+    </string-array>
+    <string name="title_activity_nearby_fuelst">NearbyFuelst</string>
+    <string name="google_maps_key" />
+    <string name="petrol" />
+    <string name="diesel" />
+    <string name="engineoil" />
+    <string name="price_format" />
+
+
+</resources>
